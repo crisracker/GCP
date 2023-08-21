@@ -65,19 +65,19 @@ gcloud compute instances stop test-vm-01 --zone=us-central1-a
 
 ```
 
-## Other gCloud settings
-
-```cmd
-
-(Optional) To improve the screen reader experience, enable the accessibility/screen_reader property: gcloud config set accessibility/screen_reader true
-
-```
-
 ## Plugins for GKE
 
 ```cmd
 
 gcloud components install gke-gcloud-auth-plugin
+
+```
+
+## Other gCloud settings
+
+```cmd
+
+(Optional) To improve the screen reader experience, enable the accessibility/screen_reader property: gcloud config set accessibility/screen_reader true
 
 ```
 
